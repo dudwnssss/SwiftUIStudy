@@ -10,6 +10,16 @@ import SwiftUI
 
 struct MyTextView: View {
     
+    //데이터를 연동시킨다
+    @Binding
+    var isActivated: Bool
+    
+    //생성자
+    init(isActivated: Binding<Bool> = .constant(false)){
+        _isActivated = isActivated
+    }
+    
+    
     @State var index: Int = 0
 
     //배경색 배열 준비
@@ -28,7 +38,12 @@ struct MyTextView: View {
                 .font(.system(size: 30))
                 .fontWeight(.bold)
                 .frame(minWidth: 0, maxWidth: .infinity,
-                       minHeight: 0, maxHeight: .infinity)
+                       minHeight: 0, maxHeight: 100)
+            Text("활성화 상태: \(String(isActivated))")
+                .font(.system(size: 30))
+                .fontWeight(.bold)
+                .foregroundColor(self.isActivated ? Color.yellow : Color.gray)
+                .background(Color.black)
             Spacer()
                 
         }.background(backGroundColors[index])
