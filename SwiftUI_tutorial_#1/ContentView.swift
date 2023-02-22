@@ -32,9 +32,7 @@ struct ContentView: View {
 
                }
             
-                NavigationLink(destination:
-                    MyTextView(index: 1)
-                     ) {
+                NavigationLink(destination: MyTextView()) {
                             Text("네비게이션")
                                 .font(.system(size: 50))
                                .foregroundColor(.white)
@@ -47,57 +45,6 @@ struct ContentView: View {
         
         }
        
-    }
-}
-
-struct MyListView: View {
-    var body: some View {
-
-        NavigationView{
-            List(0..<4){ index in
-                NavigationLink(destination: MyTextView(index: index) ){
-                    Text("아이템 \(index+1)")
-                }
-            }
-        }
-        .navigationBarTitle("네비게이션", displayMode: .large)
-        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
-    
-    }
-}
-
-struct MyTextView: View {
-    
-    @State var index: Int
-    
-    let colors = [
-        Color.red,
-        Color.blue,
-        Color.orange,
-        Color.green
-    ]
-    
-    var body: some View {
-        
-        VStack{
-            Spacer()
-            Text("배경 아이템 인덱스 \(self.index + 1)")
-                .font(.system(size: 30))
-                .foregroundColor(Color.white)
-                .fontWeight(.bold)
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
-            
-            Spacer()
-        }
-        .background(colors[index])
-            .onTapGesture {
-                if(self.index == self.colors.count - 1){
-                    self.index = 0
-                } else {
-                    self.index += 1
-                }
-        }
-            
     }
 }
 
