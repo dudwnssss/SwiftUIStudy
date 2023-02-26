@@ -13,6 +13,7 @@
 		10841B9429A8E5DA00F8F0B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10841B9329A8E5DA00F8F0B1 /* Preview Assets.xcassets */; };
 		10841B9B29A8E5F200F8F0B1 /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841B9A29A8E5F200F8F0B1 /* MyProjectCard.swift */; };
 		10841B9D29A9C79D00F8F0B1 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841B9C29A9C79D00F8F0B1 /* MyBasicCard.swift */; };
+		10841B9F29AB022000F8F0B1 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841B9E29AB022000F8F0B1 /* MyCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		10841B9329A8E5DA00F8F0B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10841B9A29A8E5F200F8F0B1 /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 		10841B9C29A9C79D00F8F0B1 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
+		10841B9E29AB022000F8F0B1 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				10841B8E29A8E5D800F8F0B1 /* ContentView.swift */,
 				10841B9A29A8E5F200F8F0B1 /* MyProjectCard.swift */,
 				10841B9C29A9C79D00F8F0B1 /* MyBasicCard.swift */,
+				10841B9E29AB022000F8F0B1 /* MyCard.swift */,
 				10841B9029A8E5DA00F8F0B1 /* Assets.xcassets */,
 				10841B9229A8E5DA00F8F0B1 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				10841B8F29A8E5D800F8F0B1 /* ContentView.swift in Sources */,
 				10841B8D29A8E5D800F8F0B1 /* SwiftUI_stack_practiceApp.swift in Sources */,
 				10841B9D29A9C79D00F8F0B1 /* MyBasicCard.swift in Sources */,
+				10841B9F29AB022000F8F0B1 /* MyCard.swift in Sources */,
 				10841B9B29A8E5F200F8F0B1 /* MyProjectCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
