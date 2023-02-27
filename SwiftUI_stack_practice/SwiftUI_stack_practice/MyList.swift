@@ -54,7 +54,7 @@ struct MyList: View {
             
         }
         .listStyle(GroupedListStyle()   )
-        .navigationTitle("내 목록")
+//        .navigationTitle("내 목록")
         .onAppear{
             self.isNavigationBarHidden = false
         }

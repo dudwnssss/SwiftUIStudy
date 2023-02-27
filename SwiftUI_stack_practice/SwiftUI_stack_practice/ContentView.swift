@@ -24,8 +24,12 @@ struct ContentView: View {
                         }
                         
                         Spacer()
-                        Image(systemName: "person.crop.circle.fill")
-                            .font(.largeTitle)
+                        NavigationLink(destination: MyProfileView(isNavigationBarHidden: self.$isNavigationBarHidden)){
+                            Image(systemName: "person.crop.circle.fill")
+                                .font(.largeTitle)
+                                .foregroundColor(.black)
+                        }
+
                     }
                     .padding(  20 )
                     

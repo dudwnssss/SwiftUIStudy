@@ -15,6 +15,9 @@
 		10841B9D29A9C79D00F8F0B1 /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841B9C29A9C79D00F8F0B1 /* MyBasicCard.swift */; };
 		10841B9F29AB022000F8F0B1 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841B9E29AB022000F8F0B1 /* MyCard.swift */; };
 		10841BA129AC237800F8F0B1 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BA029AC237800F8F0B1 /* MyList.swift */; };
+		10841BA329AC462D00F8F0B1 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BA229AC462D00F8F0B1 /* MyNavigationView.swift */; };
+		10841BA529ACAE8A00F8F0B1 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BA429ACAE8A00F8F0B1 /* MyProfileView.swift */; };
+		10841BA729ACB11500F8F0B1 /* MyCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BA629ACB11500F8F0B1 /* MyCircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		10841B9C29A9C79D00F8F0B1 /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		10841B9E29AB022000F8F0B1 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		10841BA029AC237800F8F0B1 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		10841BA229AC462D00F8F0B1 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		10841BA429ACAE8A00F8F0B1 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		10841BA629ACB11500F8F0B1 /* MyCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				10841B8E29A8E5D800F8F0B1 /* ContentView.swift */,
 				10841B9A29A8E5F200F8F0B1 /* MyProjectCard.swift */,
 				10841BA029AC237800F8F0B1 /* MyList.swift */,
+				10841BA229AC462D00F8F0B1 /* MyNavigationView.swift */,
+				10841BA429ACAE8A00F8F0B1 /* MyProfileView.swift */,
+				10841BA629ACB11500F8F0B1 /* MyCircleImageView.swift */,
 				10841B9C29A9C79D00F8F0B1 /* MyBasicCard.swift */,
 				10841B9E29AB022000F8F0B1 /* MyCard.swift */,
 				10841B9029A8E5DA00F8F0B1 /* Assets.xcassets */,
@@ -149,12 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10841BA729ACB11500F8F0B1 /* MyCircleImageView.swift in Sources */,
+				10841BA529ACAE8A00F8F0B1 /* MyProfileView.swift in Sources */,
 				10841B8F29A8E5D800F8F0B1 /* ContentView.swift in Sources */,
 				10841B8D29A8E5D800F8F0B1 /* SwiftUI_stack_practiceApp.swift in Sources */,
 				10841B9D29A9C79D00F8F0B1 /* MyBasicCard.swift in Sources */,
 				10841B9F29AB022000F8F0B1 /* MyCard.swift in Sources */,
 				10841B9B29A8E5F200F8F0B1 /* MyProjectCard.swift in Sources */,
 				10841BA129AC237800F8F0B1 /* MyList.swift in Sources */,
+				10841BA329AC462D00F8F0B1 /* MyNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
