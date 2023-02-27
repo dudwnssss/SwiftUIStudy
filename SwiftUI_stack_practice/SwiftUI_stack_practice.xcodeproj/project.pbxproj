@@ -18,6 +18,8 @@
 		10841BA329AC462D00F8F0B1 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BA229AC462D00F8F0B1 /* MyNavigationView.swift */; };
 		10841BA529ACAE8A00F8F0B1 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BA429ACAE8A00F8F0B1 /* MyProfileView.swift */; };
 		10841BA729ACB11500F8F0B1 /* MyCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BA629ACB11500F8F0B1 /* MyCircleImageView.swift */; };
+		10841BA929ACCCBD00F8F0B1 /* MyGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BA829ACCCBD00F8F0B1 /* MyGeometryReader.swift */; };
+		10841BAB29ACCF3F00F8F0B1 /* MyGeometryReaderVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BAA29ACCF3F00F8F0B1 /* MyGeometryReaderVstack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		10841BA229AC462D00F8F0B1 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		10841BA429ACAE8A00F8F0B1 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
 		10841BA629ACB11500F8F0B1 /* MyCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleImageView.swift; sourceTree = "<group>"; };
+		10841BA829ACCCBD00F8F0B1 /* MyGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReader.swift; sourceTree = "<group>"; };
+		10841BAA29ACCF3F00F8F0B1 /* MyGeometryReaderVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReaderVstack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				10841B9E29AB022000F8F0B1 /* MyCard.swift */,
 				10841B9029A8E5DA00F8F0B1 /* Assets.xcassets */,
 				10841B9229A8E5DA00F8F0B1 /* Preview Content */,
+				10841BA829ACCCBD00F8F0B1 /* MyGeometryReader.swift */,
+				10841BAA29ACCF3F00F8F0B1 /* MyGeometryReaderVstack.swift */,
 			);
 			path = SwiftUI_stack_practice;
 			sourceTree = "<group>";
@@ -162,6 +168,8 @@
 				10841BA529ACAE8A00F8F0B1 /* MyProfileView.swift in Sources */,
 				10841B8F29A8E5D800F8F0B1 /* ContentView.swift in Sources */,
 				10841B8D29A8E5D800F8F0B1 /* SwiftUI_stack_practiceApp.swift in Sources */,
+				10841BAB29ACCF3F00F8F0B1 /* MyGeometryReaderVstack.swift in Sources */,
+				10841BA929ACCCBD00F8F0B1 /* MyGeometryReader.swift in Sources */,
 				10841B9D29A9C79D00F8F0B1 /* MyBasicCard.swift in Sources */,
 				10841B9F29AB022000F8F0B1 /* MyCard.swift in Sources */,
 				10841B9B29A8E5F200F8F0B1 /* MyProjectCard.swift in Sources */,
