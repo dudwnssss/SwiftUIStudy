@@ -14,12 +14,12 @@ struct MyView: View {
     var body: some View {
         ZStack{
             bgColor //배경색 먼저 올리기
-                .edgesIgnoringSafeArea(.all)
+//                .edgesIgnoringSafeArea(.all)
             Text(title) //배경색 위에 텍스트 올리기
                 .font(.largeTitle)
                 .fontWeight(.black)
                 .foregroundColor(Color.white)
-        }
+        }.animation(.none)
     }
 }
 

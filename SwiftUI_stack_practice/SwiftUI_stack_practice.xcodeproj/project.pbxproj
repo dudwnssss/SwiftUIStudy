@@ -22,6 +22,7 @@
 		10841BAB29ACCF3F00F8F0B1 /* MyGeometryReaderVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BAA29ACCF3F00F8F0B1 /* MyGeometryReaderVstack.swift */; };
 		10841BAD29ACD8DE00F8F0B1 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BAC29ACD8DE00F8F0B1 /* MyTabView.swift */; };
 		10841BAF29ACD9DA00F8F0B1 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10841BAE29ACD9DA00F8F0B1 /* MyView.swift */; };
+		10BD957429ADAABC0040DF14 /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD957329ADAABC0040DF14 /* MyCustomTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		10841BAA29ACCF3F00F8F0B1 /* MyGeometryReaderVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGeometryReaderVstack.swift; sourceTree = "<group>"; };
 		10841BAC29ACD8DE00F8F0B1 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		10841BAE29ACD9DA00F8F0B1 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		10BD957329ADAABC0040DF14 /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				10841B8C29A8E5D800F8F0B1 /* SwiftUI_stack_practiceApp.swift */,
+				10BD957329ADAABC0040DF14 /* MyCustomTabView.swift */,
 				10841B8E29A8E5D800F8F0B1 /* ContentView.swift */,
 				10841B9A29A8E5F200F8F0B1 /* MyProjectCard.swift */,
 				10841BA029AC237800F8F0B1 /* MyList.swift */,
@@ -181,6 +184,7 @@
 				10841B9B29A8E5F200F8F0B1 /* MyProjectCard.swift in Sources */,
 				10841BA129AC237800F8F0B1 /* MyList.swift in Sources */,
 				10841BAD29ACD8DE00F8F0B1 /* MyTabView.swift in Sources */,
+				10BD957429ADAABC0040DF14 /* MyCustomTabView.swift in Sources */,
 				10841BA329AC462D00F8F0B1 /* MyNavigationView.swift in Sources */,
 				10841BAF29ACD9DA00F8F0B1 /* MyView.swift in Sources */,
 			);
