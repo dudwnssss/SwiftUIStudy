@@ -14,7 +14,6 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 10){
-            
             HStack{
                 TextField("사용자 이름", text: $username)
                     .autocapitalization(.none)
