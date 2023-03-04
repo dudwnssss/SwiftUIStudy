@@ -7,10 +7,23 @@
 
 import SwiftUI
 
+
+// 어떤 탭이 선택되었는지
+enum TabIdentifier : Hashable{
+    case todos
+    case profile
+}
+
+// 어떤 페이지를 보여줘야하는지
+enum PageIdentifier: Hashable {
+    case todoItem(id: UUID)
+}
+
 @main
 struct SwiftUI_deeplinkApp: App {
     
     @State var selectedTab = TabIdentifier.todos
+    
     var body: some Scene {
         WindowGroup {
             TabView(selection: $selectedTab, content: {
@@ -23,7 +36,7 @@ struct SwiftUI_deeplinkApp: App {
                 .tag(TabIdentifier.todos)
                 ProfileView().tabItem{
                     VStack{
-                        Image(systemName: "person.circle.fill")
+                              Image(systemName: "person.circle.fill")
                         Text("할일목록")
                     }
                 }.tag(TabIdentifier.profile)
@@ -45,19 +58,12 @@ struct MyPreviewProvider_Previews: PreviewProvider {
     }
 }
 
-// 어떤 탭이 선택되었는지
-enum TabIdentifier : Hashable{
-    case todos
-    case profile
-}
 
-// 어떤 페이지를 보여줘야하는지
-enum PageIdentifier: Hashable {
-    case todoItem(id: UUID)
-}
 
 extension URL {
     //info에서 추가한 딥링크가 들어왔는지 여부
+    //딥링크 추가공부
+    
     var isDeeplink : Bool{
         return scheme == "deeplink-swiftui"
     }
