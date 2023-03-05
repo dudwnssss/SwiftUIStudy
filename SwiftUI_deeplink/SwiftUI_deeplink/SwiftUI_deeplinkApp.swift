@@ -63,6 +63,7 @@ struct MyPreviewProvider_Previews: PreviewProvider {
 extension URL {
     //info에서 추가한 딥링크가 들어왔는지 여부
     //딥링크 추가공부
+    //딥링크 추추가
     
     var isDeeplink : Bool{
         return scheme == "deeplink-swiftui"
