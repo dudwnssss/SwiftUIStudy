@@ -46,6 +46,7 @@ struct SegmentLayoutView: View {
                 
             }).pickerStyle(.segmented)
             //내용물
+            
             ScrollView{
                 LazyVGrid(columns: <#T##[GridItem]#>, content: <#T##() -> _#>)
             }
